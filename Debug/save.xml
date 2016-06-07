@@ -1,0 +1,376 @@
+<SystemEnvironment>
+    <WindowsVersion ProductName="Windows 7 Ultimate" />
+    <Memory memory="3977MB" />
+    <Network>
+        <Item Description="Realtek PCIe GBE Family Controller" IPAddress="192.168.10.248" Gateway="192.168.10.1" netMask="" />
+    </Network>
+    <CPU ProcessorNameString="Intel(R) Core(TM) i3-4160 CPU @ 3.60GHz" MHz="3591" CoreNumber="4">
+        <CpuFeatureItem ItemName="CPU_AVX" />
+        <CpuFeatureItem ItemName="CPU_AVX2" />
+        <CpuFeatureItem ItemName="CPU_FMA3" />
+        <CpuFeatureItem ItemName="CPU_MMX" />
+        <CpuFeatureItem ItemName="CPU_SSE" />
+        <CpuFeatureItem ItemName="CPU_SSE2" />
+        <CpuFeatureItem ItemName="CPU_SSE3" />
+        <CpuFeatureItem ItemName="CPU_SSSE3" />
+        <CpuFeatureItem ItemName="CPU_SSE4_1" />
+        <CpuFeatureItem ItemName="CPU_SSE4_2" />
+        <CpuFeatureItem ItemName="CPU_POPCNT" />
+    </CPU>
+    <gpuz_dump>
+        <version>0.8.5</version>
+        <card>
+            <location>1:0:0</location>
+            <cardname>NVIDIA GeForce GTX 750</cardname>
+            <vendor>NVIDIA</vendor>
+            <vendorid>10DE</vendorid>
+            <gpuname>GM107</gpuname>
+            <diesize>148</diesize>
+            <processsize>28</processsize>
+            <deviceid>1381</deviceid>
+            <subsysid>1381</subsysid>
+            <subvendor>NVIDIA</subvendor>
+            <subvendorid>10DE</subvendorid>
+            <biosversion>82.07.32.00.9E</biosversion>
+            <businterface>PCI-E 3.0 x16 @ x16 3.0</businterface>
+            <directxsupport>11.0</directxsupport>
+            <shadermodel>5.0</shadermodel>
+            <memtype>GDDR5</memtype>
+            <membuswidth>128</membuswidth>
+            <memsize>1024</memsize>
+            <numrops>16</numrops>
+            <numshadersvertex />
+            <numshaderspixel />
+            <numshadersunified>512</numshadersunified>
+            <driverversion>10.18.13.5560 WHQL (ForceWare 355.60) / Win7 64</driverversion>
+            <fillratepixel>16.3</fillratepixel>
+            <fillratetexel>32.6</fillratetexel>
+            <membandwidth>80.2</membandwidth>
+            <clockgpu>1020</clockgpu>
+            <clockmem>1253</clockmem>
+            <clockshader />
+            <clockgpudefault>1020</clockgpudefault>
+            <clockmemdefault>1253</clockmemdefault>
+            <clockshaderdefault />
+            <multigpuname>NVIDIA SLI</multigpuname>
+            <multigpu0>Disabled</multigpu0>
+            <cuda>1</cuda>
+            <opencl>0</opencl>
+            <dxcompute>1</dxcompute>
+            <physx>0</physx>
+        </card>
+        <card>
+            <location>0:2:2</location>
+            <cardname />
+            <vendor>Intel</vendor>
+            <vendorid>8086</vendorid>
+            <gpuname>GT2</gpuname>
+            <diesize>177</diesize>
+            <processsize>22</processsize>
+            <deviceid>041E</deviceid>
+            <subsysid>D000</subsysid>
+            <subvendor>Gigabyte</subvendor>
+            <subvendorid>1458</subvendorid>
+            <biosversion />
+            <businterface>N/A</businterface>
+            <directxsupport>11.1</directxsupport>
+            <shadermodel>5.0</shadermodel>
+            <memtype>DDR3</memtype>
+            <membuswidth>64</membuswidth>
+            <memsize>0</memsize>
+            <numrops>4</numrops>
+            <numshadersvertex />
+            <numshaderspixel />
+            <numshadersunified>16</numshadersunified>
+            <driverversion>6.1.7600.16385 / Win7 64</driverversion>
+            <fillratepixel>1.4</fillratepixel>
+            <fillratetexel>2.8</fillratetexel>
+            <membandwidth>12.8</membandwidth>
+            <clockgpu>350</clockgpu>
+            <clockmem>800</clockmem>
+            <clockshader />
+            <clockgpudefault>350</clockgpudefault>
+            <clockmemdefault>800</clockmemdefault>
+            <clockshaderdefault />
+            <multigpuname>Multi-GPU</multigpuname>
+            <multigpu0>Disabled</multigpu0>
+            <cuda>0</cuda>
+            <opencl>0</opencl>
+            <dxcompute>0</dxcompute>
+            <physx>0</physx>
+        </card>
+    </gpuz_dump>
+    <Disk>
+        <DiskItem InterfaceType="IDE" MediaType="Fixed hard disk media" Name="WDC WD5000AAKX-75U6A SCSI Disk Device" Signature="1109739602" Size="476937 MB">
+            <VolumeItem Volume="C:\" VolumeName="系统" FileSystemName="NTFS" DriveType="硬盘" totalspace="102401MB" freespace="78206MB" />
+            <VolumeItem Volume="D:\" VolumeName="软件" FileSystemName="NTFS" DriveType="硬盘" totalspace="124929MB" freespace="106073MB" />
+            <VolumeItem Volume="E:\" VolumeName="文档" FileSystemName="NTFS" DriveType="硬盘" totalspace="124929MB" freespace="90917MB" />
+            <VolumeItem Volume="F:\" VolumeName="" FileSystemName="NTFS" DriveType="硬盘" totalspace="124674MB" freespace="115789MB" />
+        </DiskItem>
+    </Disk>
+    <Firewall EnableFirewall="1" />
+    <Environment>
+        <_DFX_INSTALL_UNSIGNED_DRIVER _DFX_INSTALL_UNSIGNED_DRIVER="1" />
+        <ComSpec ComSpec="%SystemRoot%\system32\cmd.exe" />
+        <FP_NO_HOST_CHECK FP_NO_HOST_CHECK="NO" />
+        <NUMBER_OF_PROCESSORS NUMBER_OF_PROCESSORS="4" />
+        <OS OS="Windows_NT" />
+        <Path>
+            <Item Name="%SystemRoot%\system32" />
+            <Item Name="%SystemRoot%" />
+            <Item Name="%SystemRoot%\System32\Wbem" />
+            <Item Name="%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\" />
+            <Item Name="C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\" />
+            <Item Name="C:\Program Files\Microsoft SQL Server\110\Tools\Binn\" />
+            <Item Name="C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\" />
+            <Item Name="C:\Program Files\Microsoft SQL Server\120\Tools\Binn\" />
+            <Item Name="E:\Devs\tbb\bin\ia32\vc12" />
+            <Item Name="E:\Devs\opencv\build\x86\vc12_src\bin" />
+            <Item Name="D:\Anaconda2" />
+            <Item Name="D:\Anaconda2\Scripts" />
+            <Item Name="D:\Anaconda2\Library\bin" />
+        </Path>
+        <PATHEXT PATHEXT=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+        <PROCESSOR_ARCHITECTURE PROCESSOR_ARCHITECTURE="AMD64" />
+        <PROCESSOR_IDENTIFIER PROCESSOR_IDENTIFIER="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel" />
+        <PROCESSOR_LEVEL PROCESSOR_LEVEL="6" />
+        <PROCESSOR_REVISION PROCESSOR_REVISION="3c03" />
+        <PSModulePath PSModulePath="%SystemRoot%\system32\WindowsPowerShell\v1.0\Modules\" />
+        <TEMP TEMP="%SystemRoot%\TEMP" />
+        <TMP TMP="%SystemRoot%\TEMP" />
+        <USERNAME USERNAME="SYSTEM" />
+        <VS110COMNTOOLS VS110COMNTOOLS="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\" />
+        <VS120COMNTOOLS VS120COMNTOOLS="D:\Microsoft Visual Studio 12.0\Common7\Tools\" />
+        <windir windir="%SystemRoot%" />
+        <windows_tracing_flags windows_tracing_flags="3" />
+        <windows_tracing_logfile windows_tracing_logfile="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    </Environment>
+    <Software Count="226">
+        <Item Name="360压缩" DisplayVersion="3.2.0.2080" InstallLocation="D:\360\360zip" Publisher="360安全中心" SystemComponent="" />
+        <Item Name="360安全卫士" DisplayVersion="9.6.0.2003" InstallLocation="C:\Program Files (x86)\360\360Safe" Publisher="360安全中心" SystemComponent="" />
+        <Item Name="Adobe Flash Player 20 ActiveX" DisplayVersion="20.0.0.228" InstallLocation="" Publisher="Adobe Systems Incorporated" SystemComponent="" />
+        <Item Name="CMake 3.4.1, a cross-platform, open-source build system" DisplayVersion="3.4.1" InstallLocation="" Publisher="Kitware" SystemComponent="" />
+        <Item Name="Microsoft Help Viewer 2.1" DisplayVersion="2.1.21005" InstallLocation="C:\Program Files (x86)\Microsoft Help Viewer\v2.1\" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Help Viewer 2.1 语言包 - CHS" DisplayVersion="2.1.21005" InstallLocation="C:\Program Files (x86)\Microsoft Help Viewer\v2.1\" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Notepad++" DisplayVersion="6.8.8" InstallLocation="" Publisher="Notepad++ Team" SystemComponent="" />
+        <Item Name="PremiumSoft Navicat 11.1 for SQLite" DisplayVersion="11.1.13" InstallLocation="D:\Navicat for SQLite\" Publisher="PremiumSoft CyberTech Ltd." SystemComponent="" />
+        <Item Name="迅雷7" DisplayVersion="" InstallLocation="D:\Thunder Network\Thunder\" Publisher="迅雷网络技术有限公司" SystemComponent="" />
+        <Item Name="Microsoft Visual C++ 2008 ATL Update kb973924 - x86 9.0.30729.4148" DisplayVersion="9.0.30729.4148" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Azure Tools for LightSwitch for Visual Studio 2013 - June 2014 Update - v2.4" DisplayVersion="2.4.20623.1601" InstallLocation="" Publisher="Microsoft" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 IntelliTrace (x86) - 简体中文资源" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Help Viewer 2.1" DisplayVersion="2.1.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Advertising SDK for Windows Phone 8.1 XAML - CHS" DisplayVersion="8.1.40427.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="腾讯QQ" DisplayVersion="7.9.16638.0" InstallLocation="C:\Program Files (x86)\Tencent\QQ\" Publisher="腾讯科技(深圳)有限公司" SystemComponent="" />
+        <Item Name="Microsoft NuGet - Visual Studio 2013" DisplayVersion="2.8.60610.756" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual F# 3.1 SDK" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="用于 Visual Studio 2013 的 Microsoft 报告查看器加载项" DisplayVersion="11.1.3442.2" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="PowerShellIntegration.Notifications" DisplayVersion="2.6.0.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++  x64 Libraries" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Blend for Visual Studio SDK for Silverlight 5" DisplayVersion="3.0.40218.0" InstallLocation="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Blend\" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 IntelliTrace (x86)" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="TypeScript Tools for Microsoft Visual Studio 2013" DisplayVersion="1.0.5.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 IntelliTrace Front End - 简体中文资源" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio 2012 Verification SDK - enu" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.21005" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft SQL Server 2012 管理对象 " DisplayVersion="11.1.3000.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="SSDT 必备组件 " DisplayVersion="11.1.3000.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name=" Tools for .Net 3.5" DisplayVersion="3.11.50727" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio 2013 Update 5 (KB2829760)" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft SQL Server Data Tools - CHS (12.0.41012.0)" DisplayVersion="12.0.41012.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Blend for Visual Studio 2013 CHS resources" DisplayVersion="12.0.41002.1" InstallLocation="D:\Microsoft Visual Studio 12.0\Blend\" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 准备" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft .NET Framework 4.5.1 SDK" DisplayVersion="4.5.51641" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Memory Profiler" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Portable Library Multi-Targeting Pack" DisplayVersion="12.0.30501.00" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Build Tools - x86" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio Ultimate 2013" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Dotfuscator and Analytics Community Edition" DisplayVersion="5.5.4954.46574" InstallLocation="" Publisher="PreEmptive Solutions" SystemComponent="1" />
+        <Item Name="WCF Data Services Tools for Microsoft Visual Studio 2013 CHS Language Pack" DisplayVersion="5.6.61587.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Exchange Web Services Managed API 2.1" DisplayVersion="15.0.847.30" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET MVC 4 - Visual Studio 2013 - CHS" DisplayVersion="4.1.21001.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="WCF Data Services 5.6.0 CHS Language Pack" DisplayVersion="5.6.61587.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Behaviors SDK (Windows) for Visual Studio 2013" DisplayVersion="12.0.50429.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio 2012 Verification SDK - ita" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Build Tools Language Resources - x86" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2012 Core Libraries" DisplayVersion="11.0.51106" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++  x64-arm Cross Compilers" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio 2012 驗證 SDK - cht" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio 2012 Verification SDK - chs" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft .NET Framework 4.5.1 多目标包(简体中文)" DisplayVersion="4.5.50932" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Visual F# 3.1 SDK Language Pack - CHS" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Python Tools 重定向模板" DisplayVersion="1.3" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Software Development Kit for Windows Store Apps" DisplayVersion="8.100.26936" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Blend for Visual Studio SDK for .NET 4.5" DisplayVersion="3.0.40218.0" InstallLocation="C:\Program Files (x86)\Microsoft Visual Studio 11.0\Blend\" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="用于 Visual Studio Professional 2013 的 Windows Phone 8.1 工具 - 简体中文" DisplayVersion="12.0.30723" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.60610" DisplayVersion="11.0.60610" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft SQL Server System CLR Types" DisplayVersion="10.50.1600.1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Open XML SDK 2.5 for Microsoft Office" DisplayVersion="2.5.5631" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft LightSwitch for Visual Studio 2013 v4.5 ToolsRes - CHS" DisplayVersion="12.0.30626" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="AzureTools.Notifications" DisplayVersion="2.1.10731.1602" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Memory Profiler" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="WCF Data Services 5.6.0 Runtime" DisplayVersion="5.6.61587.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 Shell (最小)资源" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft C++ REST SDK for Visual Studio 2013" DisplayVersion="1.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="LocalESPC Dev12" DisplayVersion="8.100.25984" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft .NET Framework 4.5 SDK" DisplayVersion="4.5.50710" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Azure Shared Components for Visual Studio 2013 语言包(简体中文) - v1.4" DisplayVersion="1.4.30416.1601" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft SharePoint 2013 Developer Tools for Visual Studio 2012 Nuget Package" DisplayVersion="12.0.30626" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET Web Frameworks and Tools - Visual Studio 2013 - CHS" DisplayVersion="5.2.30612.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 Shell (Minimum)" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2013 Microsoft Foundation Class Libraries" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft LightSwitch for Visual Studio 2013 CoreRes - 简体中文" DisplayVersion="12.0.30626" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Software Development Kit for Windows Store Apps DirectX x86 Remote" DisplayVersion="8.100.26936" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft .NET Framework 4.5 Multi-Targeting Pack" DisplayVersion="4.5.50710" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Windows Phone 8.1 SDK - ARM" DisplayVersion="8.1.15116" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="PreEmptive Analytics Client zh-Hans Language Pack" DisplayVersion="1.2.3197.1" InstallLocation="" Publisher="PreEmptive Solutions" SystemComponent="1" />
+        <Item Name="Microsoft Azure Mobile Services Tools for Visual Studio 语言包 - 1.4 版" DisplayVersion="1.4.30408.1601" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Behaviors SDK (Windows Phone) for Visual Studio 2013" DisplayVersion="12.0.50716.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft System CLR Types for SQL Server 2014" DisplayVersion="12.0.2000.8" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft ASP.NET Web Pages 2 Runtime - CHS" DisplayVersion="2.0.20716.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Software Development Kit" DisplayVersion="8.59.29989" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="WCF RIA Services V1.0 SP2" DisplayVersion="4.1.62812.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="LocalESPCui for zh-cn Dev12" DisplayVersion="8.100.25984" InstallLocation="" Publisher="Microsoft" SystemComponent="1" />
+        <Item Name="Windows Phone 8.1 SDK - Desktop" DisplayVersion="8.1.15116" InstallLocation="C:\Program Files (x86)\Microsoft XDE\8.1\" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2012 x86-x64 Compilers" DisplayVersion="11.0.60610" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="TypeScript Power Tool" DisplayVersion="1.0.5.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="LocalESPC" DisplayVersion="8.59.29989" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual F# 3.1 VS" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET Web Pages 2 - Visual Studio 2013 - ENU" DisplayVersion="4.1.21001.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft SQL Server 2012 数据层应用程序框架 " DisplayVersion="11.1.2902.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual C++ 2013 x86-x64 Compilers" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++  x64-arm Cross Compilers - CHS Resources" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft .NET Framework 4.5.1 Multi-Targeting Pack" DisplayVersion="4.5.50932" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.60610" DisplayVersion="11.0.60610.1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Advertising SDK for Windows 8.1 - ENU" DisplayVersion="8.1.30809.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Azure Mobile Services Tools for Visual Studio - v1.4" DisplayVersion="1.4.30408.1601" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 XAML UI 设计器 - 简体中文" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Azure Tools for LightSwitch for Visual Studio 2013 - v2.1" DisplayVersion="2.1.10909.1601" InstallLocation="" Publisher="Microsoft" SystemComponent="1" />
+        <Item Name="Microsoft Report Viewer Add-On for Visual Studio 2013" DisplayVersion="11.1.3442.2" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++  x64 Native Compilers - CHS Resources" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 Profiling Tools" DisplayVersion="12.0.30723" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2012 x86 Debug Runtime - 11.0.60610" DisplayVersion="11.0.60610" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio Extensions for Windows Library for JavaScript" DisplayVersion="2.1.30723.00" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 Preparation" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="VS Update core components" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft SQL Server Data Tools Build Utilities - CHS (12.0.30919.1)" DisplayVersion="12.0.30919.1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual Studio Premium 2013 - 简体中文" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Runtime Intellisense Content - zh-cn" DisplayVersion="8.100.25984" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 XAML UI Designer" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2005 Redistributable" DisplayVersion="8.0.59193" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual C++ 2013 Core Libraries" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++  x64-x86 Cross Compilers - CHS Resources" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Release Management for Visual Studio 2013" DisplayVersion="1.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729" DisplayVersion="9.0.30729" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Application Insights Tools for Visual Studio 2013" DisplayVersion="2.5" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Azure Tools for LightSwitch for Visual Studio 2013 - June 2014 Update - $(var.OOBPublishVersion) (ENU)" DisplayVersion="2.4.20623.1601" InstallLocation="" Publisher="Microsoft" SystemComponent="1" />
+        <Item Name="Microsoft Silverlight" DisplayVersion="5.1.20513.0" InstallLocation="C:\Program Files (x86)\Microsoft Silverlight\" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Kit SDK de vérification de Visual Studio?2012 - fra" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 Diagnostic Tools - x86" DisplayVersion="12.0.31101" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual F# 3.1 VS Language Pack - CHS" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Expression Blend SDK for .NET 4" DisplayVersion="2.0.20621.0" InstallLocation="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="用于 Visual Studio 2013 的 Windows Phone 8.1 工具 - 简体中文" DisplayVersion="12.0.30723" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="SDK de comprobación de Visual Studio 2012 - esn" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET MVC 4 Runtime - CHS" DisplayVersion="4.0.20716.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft .NET Framework 4.5 SDK - 简体中文 语言包" DisplayVersion="4.5.50710" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB2894854v2)" DisplayVersion="2" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB2898869)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB2972107)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB2972216)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB2978128)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB3023224)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB3035490)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB3074230)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB3074550)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB3097996)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Security Update for Microsoft .NET Framework 4.5.1 (KB3098781)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="PreEmptive Analytics Visual Studio Components" DisplayVersion="1.2.3197.1" InstallLocation="" Publisher="PreEmptive Solutions" SystemComponent="1" />
+        <Item Name="Microsoft .NET Framework 4.5.1 RC Multi-Targeting Pack for Windows Store Apps" DisplayVersion="4.5.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Пакет Visual Studio 2012 Verification SDK - rus" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET MVC 4 - Visual Studio 2013 - ENU" DisplayVersion="4.1.21001.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Software Development Kit" DisplayVersion="8.100.26936" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Software Development Kit for Windows Store Apps" DisplayVersion="8.59.29989" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft SQL Server 2014 T-SQL 语言服务" DisplayVersion="12.0.2000.8" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual Studio Professional 2013" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 Devenv 资源" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="用于 Windows 应用商店应用的 Microsoft .NET Framework 4.5.1 RC 多目标包(简体中文)" DisplayVersion="4.5.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio 2012-Verifizierungs-SDK - deu" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft SQL Server 2012 T-SQL Language Service " DisplayVersion="11.1.3000.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual Studio 2013 诊断工具 - 简体中文" DisplayVersion="12.0.31101" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Software Development Kit DirectX x86 Remote" DisplayVersion="8.100.25984" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2013 Extended Libraries" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft SQL Server 2014 管理对象" DisplayVersion="12.0.2000.8" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual C++  x86 Libraries" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Software Development Kit DirectX x86 Remote" DisplayVersion="8.59.29989" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET and Web Tools 2013.5 - Visual Studio 2013 - chs" DisplayVersion="12.5.60612.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2012 Compilers" DisplayVersion="11.0.60610" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++  ARM Libraries" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 Shell (Minimum) Interop Assemblies" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft LightSwitch v4.5 SDK" DisplayVersion="12.0.30626" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio Premium 2013" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Help Viewer 2.1 语言包 - CHS" DisplayVersion="2.1.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio Ultimate 2013 - 简体中文" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET Web Pages 2 Runtime" DisplayVersion="2.0.20716.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.60610" DisplayVersion="11.0.60610.1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual Studio 2013 Devenv" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET Web Pages 2 - Visual Studio 2013 - CHS" DisplayVersion="4.1.21001.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2012 Compilers - CHS Resources" DisplayVersion="11.0.60610" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Azure Shared Components for Visual Studio 2013 - v1.4" DisplayVersion="1.4.30416.1601" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="WCF Data Services Tools for Microsoft Visual Studio 2013" DisplayVersion="5.6.61587.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft LightSwitch for Visual Studio 2013 v4.5 Tools" DisplayVersion="12.0.30626" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Phone 8.1 SDK - x86" DisplayVersion="8.1.15116" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Office Developer Tools for Visual Studio" DisplayVersion="12.0.30626" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++  x64-x86 Cross Compilers" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET and Web Tools 2013.5 - Visual Studio 2013" DisplayVersion="12.5.60612.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio 2012 Verification SDK - jpn" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Phone 8.1 Tools for Visual Studio Professional 2013" DisplayVersion="12.0.30723" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft .NET Framework 4.5.1 SDK（简体中文）" DisplayVersion="4.5.51641" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Team Explorer for Microsoft Visual Studio 2013" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio Ultimate 2013 (含 Update 5)" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual C++ 2012 32bit Compilers - CHS Resources" DisplayVersion="11.0.60610" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft LightSwitch for Visual Studio 2013 Core" DisplayVersion="12.0.30626" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft .NET Framework 4 Multi-Targeting Pack" DisplayVersion="4.0.30319" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Update for  (KB2504637)" DisplayVersion="1" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Portable Library Multi-Targeting Pack Language Pack - chs" DisplayVersion="12.0.30501.00" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 2013 团队资源管理器语言包 - 简体中文" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2013 Core Libraries" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Entity Framework 6.1.3 Tools  for Visual Studio 2013" DisplayVersion="12.0.40302.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual Studio 2013 IntelliTrace Front End" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET Web Frameworks and Tools - Visual Studio 2013 - ENU" DisplayVersion="5.2.30612.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio 2012 Verification SDK" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2013 Compilers" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Phone SDK 8.0 Assemblies" DisplayVersion="12.0.31101" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++  x64 Native Compilers" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Visual Studio 2012 ??? ?? SDK - kor" DisplayVersion="12.0.30501" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2013 32bit Compilers - CHS Resources" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2013 x86 Debug Runtime - 12.0.21005" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Dotfuscator and Analytics Community Edition 语言包" DisplayVersion="5.5.4954.46574" InstallLocation="" Publisher="PreEmptive Solutions" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.60610" DisplayVersion="11.0.60610" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio Professional 2013 - 简体中文" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft ASP.NET MVC 4 Runtime" DisplayVersion="4.0.20716.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Blend for Visual Studio 2013" DisplayVersion="12.0.41002.1" InstallLocation="D:\Microsoft Visual Studio 12.0\Blend\" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Advertising Service Extension for Visual Studio" DisplayVersion="12.0.40402.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows Phone 8.1 Tools for Visual Studio 2013" DisplayVersion="12.0.40629" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Realtek High Definition Audio Driver" DisplayVersion="6.0.1.7581" InstallLocation="C:\Program Files\Realtek\Audio\HDA" Publisher="Realtek Semiconductor Corp." SystemComponent="" />
+        <Item Name="Windows XP Targeting with C++" DisplayVersion="11.0.51106" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name=" Tools for .Net 3.5 - CHS Lang Pack" DisplayVersion="3.11.50727" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Windows App Certification Kit x64" DisplayVersion="8.100.26795" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual Studio 的 Office 开发工具简体中文语言包" DisplayVersion="12.0.30626" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="用于 Visual Studio 2013 的 Windows Azure Tools for LightSwitch - $(var.OOBPublishVersion) (简体中文)" DisplayVersion="2.1.10909.1601" InstallLocation="" Publisher="Microsoft" SystemComponent="1" />
+        <Item Name="Microsoft Azure Mobile Services SDK" DisplayVersion="1.0.20908.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft System CLR Types for SQL Server 2012" DisplayVersion="11.1.3366.16" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Silverlight 5 SDK - CHS" DisplayVersion="5.0.61118.0" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.21005" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="Microsoft Visual C++ 2013 Compilers - CHS Resources" DisplayVersion="12.0.21005" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="SSDT 必备组件" DisplayVersion="12.0.2000.8" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="" />
+        <Item Name="Microsoft Visual C++ 2012 Core Libraries" DisplayVersion="11.0.51106" InstallLocation="" Publisher="Microsoft Corporation" SystemComponent="1" />
+        <Item Name="数据读取出错" DisplayVersion="数据读取出错" InstallLocation="" Publisher="数据读取出错" SystemComponent="" />
+        <Item Name="Microexcel" DisplayVersion="3.11.2.2" InstallLocation="" Publisher="Microexcel" SystemComponent="" />
+        <Item Name="有道词典" DisplayVersion="6.3" InstallLocation="" Publisher="网易公司" SystemComponent="" />
+        <Item Name="极速PDF阅读器 1.8" DisplayVersion="1.8" InstallLocation="" Publisher="北京海腾时代科技有限公司" SystemComponent="" />
+        <Item Name="百度云管家" DisplayVersion="5.3.2" InstallLocation='&quot;D:\BaiduYunGuanjia&quot;' Publisher="百度在线网络技术（北京）有限公司" SystemComponent="" />
+        <Item Name="网易云音乐" DisplayVersion="1.9.3.116167" InstallLocation="" Publisher="网易公司" SystemComponent="" />
+        <Item Name="360极速浏览器" DisplayVersion="8.5.0.126" InstallLocation="D:\360Chrome\Chrome\Application" Publisher="360安全中心" SystemComponent="" />
+        <Item Name="WPS Office (10.1.0.5400)" DisplayVersion="10.1.0.5400" InstallLocation="" Publisher="Kingsoft Corp." SystemComponent="" />
+        <Item Name="Qt 5.5.1" DisplayVersion="5.5.1" InstallLocation="D:\Qt\Qt5.5.1" Publisher="The Qt Company Ltd" SystemComponent="" />
+    </Software>
+</SystemEnvironment>

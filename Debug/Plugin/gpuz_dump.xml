@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<gpuz_dump>
+  <version>0.8.5</version>
+  <card>
+    <location>1:0:0</location>
+    <cardname>NVIDIA GeForce GTX 750</cardname>
+    <vendor>NVIDIA</vendor>
+    <vendorid>10DE</vendorid>
+    <gpuname>GM107</gpuname>
+    <diesize>148</diesize>
+    <processsize>28</processsize>
+    <deviceid>1381</deviceid>
+    <subsysid>1381</subsysid>
+    <subvendor>NVIDIA</subvendor>
+    <subvendorid>10DE</subvendorid>
+    <biosversion>82.07.32.00.9E</biosversion>
+    <businterface>PCI-E 3.0 x16 @ x16 3.0</businterface>
+    <directxsupport>11.0</directxsupport>
+    <shadermodel>5.0</shadermodel>
+    <memtype>GDDR5</memtype>
+    <membuswidth>128</membuswidth>
+    <memsize>1024</memsize>
+    <numrops>16</numrops>
+    <numshadersvertex></numshadersvertex>
+    <numshaderspixel></numshaderspixel>
+    <numshadersunified>512</numshadersunified>
+    <driverversion>10.18.13.5560 WHQL (ForceWare 355.60) / Win7 64</driverversion>
+    <fillratepixel>16.3</fillratepixel>
+    <fillratetexel>32.6</fillratetexel>
+    <membandwidth>80.2</membandwidth>
+    <clockgpu>1020</clockgpu>
+    <clockmem>1253</clockmem>
+    <clockshader></clockshader>
+    <clockgpudefault>1020</clockgpudefault>
+    <clockmemdefault>1253</clockmemdefault>
+    <clockshaderdefault></clockshaderdefault>
+    <multigpuname>NVIDIA SLI</multigpuname>
+    <multigpu0>Disabled </multigpu0>
+    <cuda>1</cuda>
+    <opencl>0</opencl>
+    <dxcompute>1</dxcompute>
+    <physx>0</physx>
+  </card>
+  <card>
+    <location>0:2:2</location>
+    <cardname></cardname>
+    <vendor>Intel</vendor>
+    <vendorid>8086</vendorid>
+    <gpuname>GT2</gpuname>
+    <diesize>177</diesize>
+    <processsize>22</processsize>
+    <deviceid>041E</deviceid>
+    <subsysid>D000</subsysid>
+    <subvendor>Gigabyte</subvendor>
+    <subvendorid>1458</subvendorid>
+    <biosversion></biosversion>
+    <businterface>N/A</businterface>
+    <directxsupport>11.1</directxsupport>
+    <shadermodel>5.0</shadermodel>
+    <memtype>DDR3</memtype>
+    <membuswidth>64</membuswidth>
+    <memsize>0</memsize>
+    <numrops>4</numrops>
+    <numshadersvertex></numshadersvertex>
+    <numshaderspixel></numshaderspixel>
+    <numshadersunified>16</numshadersunified>
+    <driverversion>6.1.7600.16385 / Win7 64</driverversion>
+    <fillratepixel>1.4</fillratepixel>
+    <fillratetexel>2.8</fillratetexel>
+    <membandwidth>12.8</membandwidth>
+    <clockgpu>350</clockgpu>
+    <clockmem>800</clockmem>
+    <clockshader></clockshader>
+    <clockgpudefault>350</clockgpudefault>
+    <clockmemdefault>800</clockmemdefault>
+    <clockshaderdefault></clockshaderdefault>
+    <multigpuname>Multi-GPU</multigpuname>
+    <multigpu0>Disabled</multigpu0>
+    <cuda>0</cuda>
+    <opencl>0</opencl>
+    <dxcompute>0</dxcompute>
+    <physx>0</physx>
+  </card>
+</gpuz_dump>
